@@ -11,19 +11,18 @@ from selenium.common.exceptions import TimeoutException
 
 def get_teams():
     countries = {
-           # "Italy":"italy",
-           # "France":"france",
-           # "England":"england",
-            "Canada": "canada",
-           # "Brasil": "brazil",
+            "Italy":"italy",
+            "France":"france",
+            "England":"england",
+            "Denmark": "denmark",
+            "Brasil": "brazil",
             "Belgium": "belgium",
-           # "USA": "usa",
-          #  "Germany": "germany",
-          #  "Chile": "chile",
-          #  "Portugal": "portugal",
-          #  "Poland": "poland",
-          #  "Ireland": "ireland",
-          #  "Netherlands": "netherlands",
+            "Germany": "germany",
+            "Chile": "chile",
+            "Portugal": "portugal",
+            "Poland": "poland",
+            "Ireland": "ireland",
+            "Netherlands": "netherlands",
         }
     for country_name, country in countries.items(): 
         #print("Python Executable:", sys.executable)
@@ -53,6 +52,7 @@ def get_teams():
 
         ##print('the driver has gotten the url')
         
+        
         try:
             # Find the element you want to click (for example, a button with id='myButton')
             element_to_click = WebDriverWait(driver, 7).until(
@@ -67,14 +67,14 @@ def get_teams():
         except TimeoutException as e:
             print('error clicking more: ', e)
 
-        print('url after clicking more: ', driver.current_url)
-
+        ##print('url after clicking more: ', driver.current_url)
+        
         ##print('click country ')
         try:
             # Find the element you want to click (for example, a button with id='myButton')
-            print(country)
+            ##print(country)
             country_selector = f'a[href="/football/{country}/"]'
-            print(country_selector)
+            ##print(country_selector)
             element_two_to_click = WebDriverWait(driver, 7).until(
                 EC.element_to_be_clickable((By.CSS_SELECTOR, country_selector))
             )
@@ -87,11 +87,11 @@ def get_teams():
             print('error clicking on the country: ', e)
             
 
-        print('url after clicking country: ', driver.current_url)
+        ##print('url after clicking country: ', driver.current_url)
         
 
         
-        print('checking if the league is ready')
+        ##print('checking if the league is ready')
         # make sure  the league is ready
         try:
             element_present = WebDriverWait(driver, 7).until(
@@ -101,61 +101,66 @@ def get_teams():
             page_source = driver.page_source
             soup = BeautifulSoup(page_source, 'lxml')
             leagues_in_the_country = soup.find_all('span', class_="lmc__template")
-            print(leagues_in_the_country)
+            #print(leagues_in_the_country)
         except TimeoutException as e:
             print('error checking available list of leagues: ', e)
 
+        league_count = 0
         for league in leagues_in_the_country[:8]:
-            #print(league)
+            print(league)
+            league_count += 1
             league_text = league.find('a').text.strip()
             league_href = league.find('a')['href'].strip()
-            print('league_href', league_href)
+            ##print('league_href', league_href)
             #league_class = league.find('span')['class']
             ##print(league_text)
             #print(league_class)
             #print(league)
             
-            ##print('check if more will be here again')
-            try: 
-                more_to_click = WebDriverWait(driver, 7).until(
-                EC.element_to_be_clickable((By.CSS_SELECTOR, ".lmc__itemMore"))
-                )
-                ##print('more is going to be clicked')
-                # Scroll to the element using JavaScript
-                driver.execute_script("arguments[0].scrollIntoView();", more_to_click)
-                # Click on the element using JavaScript
-                driver.execute_script("arguments[0].click();", more_to_click)
-            except TimeoutException as e:
-                print('error from checking more again: ', e)
+            if league_count > 1:
+                ##print('check if more will be here again')
+                try: 
+                    more_to_click = WebDriverWait(driver, 7).until(
+                    EC.element_to_be_clickable((By.CSS_SELECTOR, ".lmc__itemMore"))
+                    )
+                    ##print('more is going to be clicked')
+                    # Scroll to the element using JavaScript
+                    driver.execute_script("arguments[0].scrollIntoView();", more_to_click)
+                    # Click on the element using JavaScript
+                    driver.execute_script("arguments[0].click();", more_to_click)
+                except TimeoutException as e:
+                    print('error from checking more again: ', e)
+                
+                
+                ##print('check if country should be clicked again')
+                try:
+                    # Find the element you want to click (for example, a button with id='myButton')
+                    country_to_click = WebDriverWait(driver, 7).until(
+                        EC.element_to_be_clickable((By.CSS_SELECTOR, country_selector))
+                    )
+                    # Scroll to the element using JavaScript
+                    ##print('country_to_click object', country_to_click) 
+                    driver.execute_script("arguments[0].scrollIntoView();", country_to_click)
+                    # Click on the element using JavaScript
+                    driver.execute_script("arguments[0].click();", country_to_click)
+                except TimeoutException as e:
+                    print('error from checking country again: ', e)
+                
 
-            
-            ##print('check if country should be clicked again')
-            try:
                 # Find the element you want to click (for example, a button with id='myButton')
-                country_to_click = WebDriverWait(driver, 7).until(
-                    EC.element_to_be_clickable((By.CSS_SELECTOR, country_selector))
-                )
-                # Scroll to the element using JavaScript
-                print('country_to_click object', country_to_click) 
-                driver.execute_script("arguments[0].scrollIntoView();", country_to_click)
-                # Click on the element using JavaScript
-                driver.execute_script("arguments[0].click();", country_to_click)
-            except TimeoutException as e:
-                print('error from checking country again: ', e)
-            
+                ##print('click league')
+            else:
+                pass
 
-            # Find the element you want to click (for example, a button with id='myButton')
-            ##print('click league')
-            
             try:
                 league_href = league.find('a')['href'].strip()
                 league_selector = f'a[href="{league_href}"]'
-                print('league_selector', league_selector)
-                league_to_click = WebDriverWait(driver, 50).until(
+                ##print('league_selector', league_selector)
+                league_to_click = WebDriverWait(driver, 30).until(
                     EC.element_to_be_clickable((By.CSS_SELECTOR, league_selector)) 
                 )
                 # Scroll to the element using JavaScript
-                print('league to click', league_to_click)
+                ##print('league to click', league_to_click)
                 driver.execute_script("arguments[0].scrollIntoView();", league_to_click)
 
                 # Click on the element using JavaScript
@@ -166,7 +171,7 @@ def get_teams():
             ##print('url after clicking the league: ' , driver.current_url)
             
             # Find the element you want to click (for example, a button with id='myButton')
-            print('check if standing is there to be clicked')
+            ##print('check if standing is there to be clicked')
             try:
                 standing_to_click = WebDriverWait(driver, 7).until(
                     EC.element_to_be_clickable((By.ID, "li3"))
@@ -184,13 +189,13 @@ def get_teams():
 
 
 
-            print('url after clicking the standing: ', driver.current_url)
+            ##print('url after clicking the standing: ', driver.current_url)
             ##print('the diver is now on the page')
             try:
                 element_present = WebDriverWait(driver, 7).until(
                     EC.presence_of_element_located((By.CSS_SELECTOR, '.ui-table__row'))
                 )
-                print("Element is present!")
+                ##print("Element is present!")
 
                 page_source = driver.page_source
 
