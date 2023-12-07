@@ -1,0 +1,87 @@
+('Serie A 2023/2024 - Football, Italy', 'total_league_teams:', 20)
+
+('Serie B 2023/2024 - Football, Italy', 'total_league_teams:', 20)
+
+('Serie C - Group A 2023/2024 - Football, Italy', 'total_league_teams:', 20)
+
+('Serie C - Group B 2023/2024 - Football, Italy', 'total_league_teams:', 20)
+
+('Serie C - Group C 2023/2024 - Football, Italy', 'total_league_teams:', 20)
+
+('Serie D - Group A 2023/2024 - Football, Italy', 'total_league_teams:', 20)
+
+('Serie D - Group B 2023/2024 - Football, Italy', 'total_league_teams:', 20)
+
+('Serie D - Group C 2023/2024 - Football, Italy', 'total_league_teams:', 18)
+
+{'rank': 3, 'team_name': 'Victor San Marino', 'matches_played': '14', 'points': '26', 'last_matches': ['L', 'L', 'W', 'W', 'D'], 'next_match': ['Imolese - Victor San Marino10.12.2023', '(Victor San Marino - Forli)03.12.2023', '(Certaldo - Victor San Marino)26.11.2023', '(Victor San Marino - Sammaurese)19.11.2023', '(SCD Progresso - Victor San Marino)12.11.2023', '(Victor San Marino - Aglianese Calcio)05.11.2023'], 'last_5_matches': ['(Victor San Marino - Forli)03.12.2023', '(Certaldo - Victor San Marino)26.11.2023', '(Victor San Marino - Sammaurese)19.11.2023', '(SCD Progresso - Victor San Marino)12.11.2023', '(Victor San Marino - Aglianese Calcio)05.11.2023']}
+('Serie D - Group D 2023/2024 - Football, Italy', 'total_league_teams:', 18)
+
+('Serie D - Group E 2023/2024 - Football, Italy', 'total_league_teams:', 18)
+
+('Serie D - Group F 2023/2024 - Football, Italy', 'total_league_teams:', 18)
+
+('Serie D - Group G 2023/2024 - Football, Italy', 'total_league_teams:', 18)
+
+('Serie D - Group H 2023/2024 - Football, Italy', 'total_league_teams:', 18)
+
+('Ligue 1 2023/2024 - Football, France', 'total_league_teams:', 18)
+
+('Ligue 2 2023/2024 - Football, France', 'total_league_teams:', 20)
+
+('National 2023/2024 - Football, France', 'total_league_teams:', 18)
+
+('National 2 - Group A 2023/2024 - Football, France', 'total_league_teams:', 14)
+
+('National 2 - Group B 2023/2024 - Football, France', 'total_league_teams:', 14)
+
+('National 2 - Group C 2023/2024 - Football, France', 'total_league_teams:', 14)
+
+('National 2 - Group D 2023/2024 - Football, France', 'total_league_teams:', 14)
+
+('Premier League 2023/2024 - Football, England', 'total_league_teams:', 20)
+
+('Championship 2023/2024 - Football, England', 'total_league_teams:', 24)
+
+('League One 2023/2024 - Football, England', 'total_league_teams:', 24)
+
+('League Two 2023/2024 - Football, England', 'total_league_teams:', 24)
+
+{'rank': 3, 'team_name': 'Barnet', 'matches_played': '22', 'points': '42', 'last_matches': ['L', 'L', 'L', 'L', 'W'], 'next_match': ['Ebbsfleet - Barnet16.12.2023', '(Wealdstone - Barnet)25.11.2023', '(Barnet - Oldham)22.11.2023', '(Barnet - Gateshead)18.11.2023', '(Chesterfield - Barnet)11.11.2023', '(Oxford City - Barnet)28.10.2023'], 'last_5_matches': ['(Wealdstone - Barnet)25.11.2023', '(Barnet - Oldham)22.11.2023', '(Barnet - Gateshead)18.11.2023', '(Chesterfield - Barnet)11.11.2023', '(Oxford City - Barnet)28.10.2023']}
+{'rank': 4, 'team_name': 'Solihull Moors', 'matches_played': '22', 'points': '37', 'last_matches': ['L', 'L', 'L', 'W', 'W'], 'next_match': ['Solihull Moors - Oldham16.12.2023', '(Altrincham - Solihull Moors)25.11.2023', '(Solihull Moors - Gateshead)21.11.2023', '(Solihull Moors - Maidenhead)18.11.2023', '(Dag & Red - Solihull Moors)11.11.2023', '(Solihull Moors - Wealdstone)28.10.2023'], 'last_5_matches': ['(Altrincham - Solihull Moors)25.11.2023', '(Solihull Moors - Gateshead)21.11.2023', '(Solihull Moors - Maidenhead)18.11.2023', '(Dag & Red - Solihull Moors)11.11.2023', '(Solihull Moors - Wealdstone)28.10.2023']}
+('National League 2023/2024 - Football, England', 'total_league_teams:', 24)
+
+('National League North 2023/2024 - Football, England', 'total_league_teams:', 24)
+
+('National League South 2023/2024 - Football, England', 'total_league_teams:', 24)
+
+('Southern League South Division 2023/2024 - Football, England', 'total_league_teams:', 22)
+
+('Isthmian League Premier Division 2023/2024 - Football, England', 'total_league_teams:', 22)
+
+('Premier League 2 2023/2024 - Football, England', 'total_league_teams:', 26)
+
+('Professional Development League 2023/2024 - Football, England', 'total_league_teams:', 21)
+
+{'rank': 3, 'team_name': 'FC Copenhagen', 'matches_played': '17', 'points': '33', 'last_matches': ['L', 'L', 'D', 'W', 'W'], 'next_match': ['Silkeborg - FC Copenhagen18.02.2024', '(FC Copenhagen - Aarhus)03.12.2023', '(Viborg - FC Copenhagen)25.11.2023', '(FC Copenhagen - Brondby)12.11.2023', '(Randers FC - FC Copenhagen)05.11.2023', '(FC Copenhagen - Hvidovre IF)28.10.2023'], 'last_5_matches': ['(FC Copenhagen - Aarhus)03.12.2023', '(Viborg - FC Copenhagen)25.11.2023', '(FC Copenhagen - Brondby)12.11.2023', '(Randers FC - FC Copenhagen)05.11.2023', '(FC Copenhagen - Hvidovre IF)28.10.2023']}
+('Superliga 2023/2024 - Football, Denmark', 'total_league_teams:', 12)
+
+('1st Division 2023/2024 - Football, Denmark', 'total_league_teams:', 12)
+
+('Serie A 2023 - Football, Brazil', 'total_league_teams:', 20)
+
+('Serie B 2023 - Football, Brazil', 'total_league_teams:', 20)
+
+{'rank': 3, 'team_name': 'Amazonas', 'matches_played': '19', 'points': '32', 'last_matches': ['L', 'L', 'D', 'W'], 'next_match': ['(Amazonas - CSA)26.08.2023', '(EC Sao Jose - Amazonas)20.08.2023', '(Sao Bernardo - Amazonas)12.08.2023', '(Amazonas - Aparecidense)05.08.2023', '(Figueirense - Amazonas)31.07.2023'], 'last_5_matches': ['(EC Sao Jose - Amazonas)20.08.2023', '(Sao Bernardo - Amazonas)12.08.2023', '(Amazonas - Aparecidense)05.08.2023', '(Figueirense - Amazonas)31.07.2023']}
+('Serie C 2023 - Football, Brazil', 'total_league_teams:', 20)
+
+('Jupiler Pro League 2023/2024 - Football, Belgium', 'total_league_teams:', 16)
+
+('Challenger Pro League 2023/2024 - Football, Belgium', 'total_league_teams:', 16)
+
+('Bundesliga 2023/2024 - Football, Germany', 'total_league_teams:', 18)
+
+('2. Bundesliga 2023/2024 - Football, Germany', 'total_league_teams:', 18)
+
+('Serie A 2023 - Football, Brazil', 'total_league_teams:', 20)
+
