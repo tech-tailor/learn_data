@@ -10,22 +10,22 @@ from selenium.common.exceptions import TimeoutException
 import time
 
 
-def get_teams():
-    countries = {
+def get_teams(**kwargs):
+    #countries = {
             #"Italy":"italy",
             #"France":"france",
             #"England":"england",
             #"Denmark": "denmark",
-            "Brasil": "brazil",
-            "Belgium": "belgium",
-            "Germany": "germany",
-            "Chile": "chile",
-            "Portugal": "portugal",
-            "Poland": "poland",
-            "Ireland": "ireland",
-            "Netherlands": "netherlands",
-        }
-    for country_name, country in countries.items(): 
+           # "Brasil": "brazil",
+           # "Belgium": "belgium",
+           # "Germany": "germany",
+           # "Chile": "chile",
+           # "Portugal": "portugal",
+           # "Poland": "poland",
+           # "Ireland": "ireland",
+           # "Netherlands": "netherlands",
+       # }
+    for country_name, country in kwargs.items(): 
         #print("Python Executable:", sys.executable)
 
         print('starting with:', country_name)
@@ -287,7 +287,7 @@ def main():
 
     while retries < max_retries:
         try:
-            get_teams()
+            get_teams(Brazil="brasil")
             break
         except Exception as e:
             print(f"caught an exception: {e}")
