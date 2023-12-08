@@ -25,10 +25,10 @@ def get_teams(**kwargs):
            # "Ireland": "ireland",
            # "Netherlands": "netherlands",
        # }
-    for country_name, country in kwargs.items(): 
+    for country, no_of_league in kwargs.items(): 
         #print("Python Executable:", sys.executable)
 
-        print('starting with:', country_name)
+        print('starting with:', country)
         # Set the path to your chromedriver executable
         try:
             width, height = 800, 600
@@ -51,7 +51,7 @@ def get_teams(**kwargs):
         except TimeoutException as e:
             print('error start: ', e)
 
-        ##print('the driver has gotten the url')
+        print('the driver has gotten the url')
         
         
         try:
@@ -59,18 +59,18 @@ def get_teams(**kwargs):
             element_to_click = WebDriverWait(driver, 10).until(
                 EC.element_to_be_clickable((By.CSS_SELECTOR, ".lmc__itemMore"))
             )
-            ##print('more is going to be clicked')
+            print('more is going to be clicked')
 
             # Scroll to the element using JavaScript
             driver.execute_script("arguments[0].scrollIntoView();", element_to_click)
             # Click on the element using JavaScript
             driver.execute_script("arguments[0].click();", element_to_click)
-        except TimeoutException as e:
+        except Exception as e:
             print('error clicking more: ', e)
 
-        ##print('url after clicking more: ', driver.current_url)
+        print('url after clicking more: ', driver.current_url)
         
-        ##print('click country ')
+        print('click country ')
         try:
             # Find the element you want to click (for example, a button with id='myButton')
             ##print(country)
@@ -107,7 +107,7 @@ def get_teams(**kwargs):
             print('error checking available list of leagues: ', e)
 
         league_count = 0
-        for league in leagues_in_the_country[:4]:
+        for league in leagues_in_the_country[:no_of_league]:
             league_count += 1
             league_text = league.find('a').text.strip()
             league_href = league.find('a')['href'].strip()
@@ -250,17 +250,75 @@ def get_teams(**kwargs):
                             #print('')
 
                             if last_matches[:2] == ['L', 'L'] and rank <= 4:
+                                print("top 4 team with last double loss")
                                 print(match_data)
                                 print('')
-                                with open("league_results.txt", "a") as file:
+                                with open("league_result.txt", "a") as file:
                                     file.write(str(match_data) + '\n')
+
+                            #get total league name and rank at a go for the next search
+                            all_ranks_and_names =[]
+                            no_of_all_teams = 0
+                            for league_rank_and_name in league_teams:
+                                no_of_all_teams += 1
+                                just_rank = int(league_rank_and_name.find('div', class_='tableCellRank').text.rstrip('.'))
+                                just_team_name = league_rank_and_name.find('a', class_="tableCellParticipant__name").text.strip()
+
+                                just_data ={
+                                    'just_rank': just_rank,
+                                    'just_team_name': just_team_name,
+                                }
+                                all_ranks_and_names.append(just_data)
+                                continue
+                            
+                            #check top 4 teams with last match loss and playing last top 4 buttom
+                            if last_matches[:1] == ['L'] and rank <= 4:
+                                #print(match_data)
+                                nextmatch_teams = next_match[0]
+                                print('')
+                                nextmatch_opponent = nextmatch_teams[:-10]   #remove date attached to the teams
+                                teams = nextmatch_opponent.split('-')
+                                print(teams)
+                                if team_name == teams[1].strip():
+                                    opponent = teams[0].strip()
+                                else:
+                                    opponent = teams[1].strip()
+                                
+                                
+                                
+                                
+                        
+                                
+                                #print(all_rank_and_name)
+                                #print(no_of_all_teams)
+                                
+                                #search for opponent rank
+                                opponent_rank = 0
+                                for all_rank_and_name in all_ranks_and_names:
+                                    #print(all_rank_and_name)
+                                    if all_rank_and_name['just_team_name'] == opponent:
+                                        opponent_rank += all_rank_and_name['just_rank']
+                                        break  
+                                
+                                print('top teams with last loss playing an opponents')
+                                print(f"nextmatch: {nextmatch_opponent}")
+                                print(f"team with advantage: {team_name}, rank: {rank}")
+                                print(f"opponents: {opponent},  rank: {opponent_rank}")
+                                print()
+                                
+                                #print(opponent_rank)
+                                if opponent_rank >= (no_of_all_teams - 5):
+                                    print("top team with last loss playing opponenents in the bottom 5")
+                                    print(f" {team_name}-{rank} vs {opponent}-{opponent_rank}")
+                                    with open("league_result.txt", "a") as file:
+                                        file.write("top teams with last loss playing opponenents in the bottom 5" + "\n" + str(f"{team_name}-{rank} vs {opponent}-{opponent_rank}") + "\n")
                            
 
                         league_details = league_country, 'total_league_teams:', total_league_teams
                         print(league_details)
                         print('')
                         print('')
-                        with open("league_results.txt", "a") as file:
+                        with open("league_result.txt", "a") as file:
                             file.write(str(league_details) + '\n' + '\n')
 
                     except Exception as e:
@@ -287,7 +345,7 @@ def main():
 
     while retries < max_retries:
         try:
-            get_teams(Brazil="brasil")
+            get_teams(croatia=2, denmark=2, france=4, germany=5, iran=2, italy=4, portugal=3, spain=4, turkey=3, )
             break
         except Exception as e:
             print(f"caught an exception: {e}")
