@@ -1,0 +1,106 @@
+top teams with last loss playing opponenents in the bottom 5
+Manchester City-4 vs Luton-18
+('Premier League 2023/2024 - Football, England', 'total_league_teams:', 20)
+
+('Championship 2023/2024 - Football, England', 'total_league_teams:', 24)
+
+('League One 2023/2024 - Football, England', 'total_league_teams:', 24)
+
+('League Two 2023/2024 - Football, England', 'total_league_teams:', 24)
+
+('A-League 2023/2024 - Football, Australia', 'total_league_teams:', 12)
+
+{'rank': 2, 'team_name': 'Gungahlin', 'matches_played': '21', 'points': '36', 'last_matches': ['L', 'L', 'W', 'W'], 'next_match': ['(West Canberra Wanderers - Gungahlin)02.09.2023', '(Gungahlin - Canberra Croatia)27.08.2023', "(Gungahlin - O'Connor Knights)20.08.2023", '(Tigers FC - Gungahlin)12.08.2023', '(Monaro Panthers - Gungahlin)09.08.2023'], 'last_5_matches': ['(Gungahlin - Canberra Croatia)27.08.2023', "(Gungahlin - O'Connor Knights)20.08.2023", '(Tigers FC - Gungahlin)12.08.2023', '(Monaro Panthers - Gungahlin)09.08.2023']}
+('NPL ACT 2023 - Football, Australia', 'total_league_teams:', 8)
+
+('Superliga 2023/2024 - Football, Albania', 'total_league_teams:', 10)
+
+('First Division 2023/2024 - Football, Albania', 'total_league_teams:', 12)
+
+('Division Profesional 2023 - Football, Bolivia', 'total_league_teams:', 17)
+
+('Serie A 2023 - Football, Brazil', 'total_league_teams:', 20)
+
+('Serie B 2023 - Football, Brazil', 'total_league_teams:', 20)
+
+{'rank': 3, 'team_name': 'Amazonas', 'matches_played': '19', 'points': '32', 'last_matches': ['L', 'L', 'D', 'W'], 'next_match': ['(Amazonas - CSA)26.08.2023', '(EC Sao Jose - Amazonas)20.08.2023', '(Sao Bernardo - Amazonas)12.08.2023', '(Amazonas - Aparecidense)05.08.2023', '(Figueirense - Amazonas)31.07.2023'], 'last_5_matches': ['(EC Sao Jose - Amazonas)20.08.2023', '(Sao Bernardo - Amazonas)12.08.2023', '(Amazonas - Aparecidense)05.08.2023', '(Figueirense - Amazonas)31.07.2023']}
+('Serie C 2023 - Football, Brazil', 'total_league_teams:', 20)
+
+('Eredivisie 2023/2024 - Football, Netherlands', 'total_league_teams:', 18)
+
+{'rank': 3, 'team_name': 'FC Emmen', 'matches_played': '18', 'points': '32', 'last_matches': ['L', 'L', 'W', 'W', 'W'], 'next_match': ['FC Emmen - Roda15.12.2023', '(Eindhoven FC - FC Emmen)08.12.2023', '(Willem II - FC Emmen)01.12.2023', '(FC Emmen - Jong PSV)27.11.2023', '(Helmond - FC Emmen)24.11.2023', '(FC Emmen - Den Bosch)10.11.2023'], 'last_5_matches': ['(Eindhoven FC - FC Emmen)08.12.2023', '(Willem II - FC Emmen)01.12.2023', '(FC Emmen - Jong PSV)27.11.2023', '(Helmond - FC Emmen)24.11.2023', '(FC Emmen - Den Bosch)10.11.2023']}
+('Eerste Divisie 2023/2024 - Football, Netherlands', 'total_league_teams:', 20)
+
+top teams with last loss playing opponenents in the bottom 5
+Manchester City-4 vs Luton-18
+('Premier League 2023/2024 - Football, England', 'total_league_teams:', 20)
+
+('Championship 2023/2024 - Football, England', 'total_league_teams:', 24)
+
+('League One 2023/2024 - Football, England', 'total_league_teams:', 24)
+
+('League Two 2023/2024 - Football, England', 'total_league_teams:', 24)
+
+('A-League 2023/2024 - Football, Australia', 'total_league_teams:', 12)
+
+{'rank': 2, 'team_name': 'Gungahlin', 'matches_played': '21', 'points': '36', 'last_matches': ['L', 'L', 'W', 'W'], 'next_match': ['(West Canberra Wanderers - Gungahlin)02.09.2023', '(Gungahlin - Canberra Croatia)27.08.2023', "(Gungahlin - O'Connor Knights)20.08.2023", '(Tigers FC - Gungahlin)12.08.2023', '(Monaro Panthers - Gungahlin)09.08.2023'], 'last_5_matches': ['(Gungahlin - Canberra Croatia)27.08.2023', "(Gungahlin - O'Connor Knights)20.08.2023", '(Tigers FC - Gungahlin)12.08.2023', '(Monaro Panthers - Gungahlin)09.08.2023']}
+('NPL ACT 2023 - Football, Australia', 'total_league_teams:', 8)
+
+('Premier League 2023/2024 - Football, England', 'total_league_teams:', 20)
+
+('Championship 2023/2024 - Football, England', 'total_league_teams:', 24)
+
+('League One 2023/2024 - Football, England', 'total_league_teams:', 24)
+
+('League Two 2023/2024 - Football, England', 'total_league_teams:', 24)
+
+('A-League 2023/2024 - Football, Australia', 'total_league_teams:', 12)
+
+{'rank': 2, 'team_name': 'Gungahlin', 'matches_played': '21', 'points': '36', 'last_matches': ['L', 'L', 'W', 'W'], 'next_match': ['(West Canberra Wanderers - Gungahlin)02.09.2023', '(Gungahlin - Canberra Croatia)27.08.2023', "(Gungahlin - O'Connor Knights)20.08.2023", '(Tigers FC - Gungahlin)12.08.2023', '(Monaro Panthers - Gungahlin)09.08.2023'], 'last_5_matches': ['(Gungahlin - Canberra Croatia)27.08.2023', "(Gungahlin - O'Connor Knights)20.08.2023", '(Tigers FC - Gungahlin)12.08.2023', '(Monaro Panthers - Gungahlin)09.08.2023']}
+('NPL ACT 2023 - Football, Australia', 'total_league_teams:', 8)
+
+('Superliga 2023/2024 - Football, Albania', 'total_league_teams:', 10)
+
+('First Division 2023/2024 - Football, Albania', 'total_league_teams:', 12)
+
+('Division Profesional 2023 - Football, Bolivia', 'total_league_teams:', 17)
+
+('Serie A 2023 - Football, Brazil', 'total_league_teams:', 20)
+
+('Premier League 2023/2024 - Football, England', 'total_league_teams:', 20)
+
+('Championship 2023/2024 - Football, England', 'total_league_teams:', 24)
+
+('League One 2023/2024 - Football, England', 'total_league_teams:', 24)
+
+('League Two 2023/2024 - Football, England', 'total_league_teams:', 24)
+
+('Premier League 2023/2024 - Football, England', 'total_league_teams:', 20)
+
+('Championship 2023/2024 - Football, England', 'total_league_teams:', 24)
+
+('Superliga 2023/2024 - Football, Albania', 'total_league_teams:', 10)
+
+('First Division 2023/2024 - Football, Albania', 'total_league_teams:', 12)
+
+('Division Profesional 2023 - Football, Bolivia', 'total_league_teams:', 17)
+
+('Premier League 2023/2024 - Football, England', 'total_league_teams:', 20)
+
+('Championship 2023/2024 - Football, England', 'total_league_teams:', 24)
+
+('Premier League 2023/2024 - Football, England', 'total_league_teams:', 20)
+
+('Championship 2023/2024 - Football, England', 'total_league_teams:', 24)
+
+('League One 2023/2024 - Football, England', 'total_league_teams:', 24)
+
+('League Two 2023/2024 - Football, England', 'total_league_teams:', 24)
+
+('A-League 2023/2024 - Football, Australia', 'total_league_teams:', 12)
+
+{'rank': 2, 'team_name': 'Gungahlin', 'matches_played': '21', 'points': '36', 'last_matches': ['L', 'L', 'W', 'W'], 'next_match': ['(West Canberra Wanderers - Gungahlin)02.09.2023', '(Gungahlin - Canberra Croatia)27.08.2023', "(Gungahlin - O'Connor Knights)20.08.2023", '(Tigers FC - Gungahlin)12.08.2023', '(Monaro Panthers - Gungahlin)09.08.2023'], 'last_5_matches': ['(Gungahlin - Canberra Croatia)27.08.2023', "(Gungahlin - O'Connor Knights)20.08.2023", '(Tigers FC - Gungahlin)12.08.2023', '(Monaro Panthers - Gungahlin)09.08.2023']}
+('NPL ACT 2023 - Football, Australia', 'total_league_teams:', 8)
+
+('Premier League 2023/2024 - Football, England', 'total_league_teams:', 20)
+

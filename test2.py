@@ -273,10 +273,10 @@ def get_teams(**kwargs):
                             
                             #check top 4 teams with last match loss and playing last top 4 buttom
                             if last_matches[:1] == ['L'] and rank <= 4:
-                                #print(match_data)
+                                #print(match_data0
                                 nextmatch_teams = next_match[0]
-                                print('')
                                 nextmatch_opponent = nextmatch_teams[:-10]   #remove date attached to the teams
+                                match_date = nextmatch_teams[-10:]
                                 teams = nextmatch_opponent.split('-')
                                 print(teams)
                                 if team_name == teams[1].strip():
@@ -286,9 +286,7 @@ def get_teams(**kwargs):
                                 
                                 
                                 
-                                
-                        
-                                
+                                                               
                                 #print(all_rank_and_name)
                                 #print(no_of_all_teams)
                                 
@@ -309,9 +307,9 @@ def get_teams(**kwargs):
                                 #print(opponent_rank)
                                 if opponent_rank >= (no_of_all_teams - 5):
                                     print("top team with last loss playing opponenents in the bottom 5")
-                                    print(f" {team_name}-{rank} vs {opponent}-{opponent_rank}")
+                                    print(f" {team_name}-{rank} vs {opponent}-{opponent_rank} --- {match_date}")
                                     with open("league_result.txt", "a") as file:
-                                        file.write("top teams with last loss playing opponenents in the bottom 5" + "\n" + str(f"{team_name}-{rank} vs {opponent}-{opponent_rank}") + "\n")
+                                        file.write("top teams with last loss playing opponenents in the bottom 5" + "\n" + str(f"{team_name}-{rank} vs {opponent}-{opponent_rank} --- {match_date}") + "\n")
                            
 
                         league_details = league_country, 'total_league_teams:', total_league_teams
@@ -345,7 +343,7 @@ def main():
 
     while retries < max_retries:
         try:
-            get_teams(croatia=2, denmark=2, france=4, germany=5, iran=2, italy=4, portugal=3, spain=4, turkey=3, )
+            get_teams(england=4, australia=2, albania=2, bolivia=2, brazil=3, netherlands=2, norway=2, serbia=2, scotland=2, uruguay=2, mexico=2, japan=2, ireland=2, denmark=2, bahrain=2, finland=2, qatar=2, slovenia=2, croatia=2, france=3, germany=3, iran=2, italy=4, portugal=3, spain=4, turkey=3, )
             break
         except Exception as e:
             print(f"caught an exception: {e}")
