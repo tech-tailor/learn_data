@@ -299,7 +299,7 @@ def get_teams(**kwargs):
                                         break  
                                 
                                 print('top teams with last loss playing an opponents')
-                                print(f"nextmatch: {nextmatch_opponent}")
+                                print(f"nextmatch: {nextmatch_opponent} --- {match_date}")
                                 print(f"team with advantage: {team_name}, rank: {rank}")
                                 print(f"opponents: {opponent},  rank: {opponent_rank}")
                                 print()
@@ -336,29 +336,40 @@ def get_teams(**kwargs):
         driver.quit()
 
 
-
+import sys
 def main():
     max_retries = 10
     retries = 0
 
-    while retries < max_retries:
-        try:
-            get_teams(england=4, australia=2, albania=2, bolivia=2, brazil=3, netherlands=2, norway=2, serbia=2, scotland=2, uruguay=2, mexico=2, japan=2, ireland=2, denmark=2, bahrain=2, finland=2, qatar=2, slovenia=2, croatia=2, france=3, germany=3, iran=2, italy=4, portugal=3, spain=4, turkey=3, )
-            break
-        except Exception as e:
-            print(f"caught an exception: {e}")
-            retries += 1
-            print(f"Retrying... ({retries}/{max_retries})")
-            time.sleep(2)
+    if len(sys.argv) < 2:
+        print(f"usage: python3 script.py country league_no")
+        sys.exit(1)
 
-    if retries == max_retries:
-        print("max retries reach, cant finish")
     else:
-        print("operation successfully")
+        args = sys.argv[1:]
+        team_dict = {}
+        for  item in args:
+            country, value= item.split('=')
+            team_dict[country] = int(value)
+        while retries < max_retries:
+            try:
+                get_teams(**team_dict)
+
+                break
+            except Exception as e:
+                print(f"caught an exception: {e}")
+                retries += 1
+                print(f"Retrying... ({retries}/{max_retries})")
+                time.sleep(2)
+
+        if retries == max_retries:
+            print("max retries reach, cant finish")
+        else:
+            print("operation successfully")
 
 if __name__ == "__main__":
     main()
     
 
 
-
+#serbia=2, scotland=2, uruguay=1, mexico=2, japan=2, ireland=2, denmark=2, bahrain=2, finland=2, qatar=2, slovenia=2, croatia=2, france=3, germany=3, iran=2, italy=4, portugal=3, spain=4, turkey=3, england=4, australia=2, albania=2, brazil=3, netherlands=2 
