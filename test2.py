@@ -346,12 +346,12 @@ def main():
         sys.exit(1)
 
     else:
-        args = sys.argv[1:]
-        team_dict = {}
-        for  item in args:
-            country, value= item.split('=')
-            team_dict[country] = int(value)
         while retries < max_retries:
+            args = sys.argv[1:]
+            team_dict = {}
+            for  item in args:
+                country, value= item.split('=')
+                team_dict[country] = int(value)
             try:
                 get_teams(**team_dict)
 
