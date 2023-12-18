@@ -246,25 +246,27 @@ def get_teams(**kwargs):
                                     file.write(str(result_for_double_loss) + '\n')
                             '''
 
-                            #get total league name and rank at a go for the next search
+                            #get total league name point and rank at a go for the next search
                             
-                            all_ranks_and_names =[]
+                            all_ranks_points_and_names =[]
                             no_of_all_teams = 0
                             for league_rank_and_name in league_teams:
                                 no_of_all_teams += 1
                                 just_rank = int(league_rank_and_name.find('div', class_='tableCellRank').text.rstrip('.'))
                                 just_team_name = league_rank_and_name.find('a', class_="tableCellParticipant__name").text.strip()
+                                just_point = league_rank_and_name.find('span', class_="table__cell--points") .text.strip()
 
                                 just_data ={
                                     'just_rank': just_rank,
                                     'just_team_name': just_team_name,
+                                    'just_point': just_point,
                                 }
-                                all_ranks_and_names.append(just_data)
+                                all_ranks_points_and_names.append(just_data)
                                 continue
 
-
                             
-                            #check top 3 or 4 teams with last match loss and playing last bottom 3 or 4
+                            
+                            #check top 3 or 4 teams with last match loss and playing last bottom 3 or 4. Also check the points difference between the upper and lower teams and it should be less than 4
                             
                             if last_matches[:1] == ['L'] and rank <= (no_of_all_teams//5):  # lose last match and in top 3 or 4
                                 #print(match_data0
@@ -277,20 +279,21 @@ def get_teams(**kwargs):
                                     opponent = teams[0].strip()
                                 else:
                                     opponent = teams[1].strip()
-                                
-                                
-                                
-                                                            
+                                     
                                 #print(all_rank_and_name)
                                 #print(no_of_all_teams)
-                                
-                                #search for opponent rank
+                                #print(f"opponent_point", all_rank_and_name['just_point'])
+                                #search for opponent rank and points
                                 opponent_rank = 0
-                                for all_rank_and_name in all_ranks_and_names:
+                                opponent_point = 0
+                                for all_rank_and_name in all_ranks_points_and_names:
                                     #print(all_rank_and_name)
                                     if all_rank_and_name['just_team_name'] == opponent:
                                         opponent_rank += all_rank_and_name['just_rank']
+                                        opponent_point += int(all_rank_and_name['just_point'])
+                                        #print(opponent_point)
                                         break  
+
                                 '''
                                 print('top teams with last loss playing an opponents')
                                 print(f"nextmatch: {nextmatch_opponent} --- {match_date}")
@@ -300,20 +303,23 @@ def get_teams(**kwargs):
                                 '''
                                 
                                 #print(opponent_rank)
-                                if opponent_rank >= (no_of_all_teams -(no_of_all_teams//5)):  #print opponent in the botom 4 for 20 league team and botom 3 for 18 and 16 league teams
+                                if opponent_rank >= (no_of_all_teams -(no_of_all_teams//5)) and opponent == teams[1].strip():  #print opponent in the botom 4 for 20 league team and botom 3 for 18 and 16 league teams
                                     print(f"top {no_of_all_teams//5} team with last loss playing opponenents in the bottom {no_of_all_teams//5}")
                                     print(nextmatch_teams)
                                     print(f" {team_name}-{rank} vs {opponent}-{opponent_rank} --- {match_date}")
-                                    top_team_result = f"top teams with last loss playing opponenents in the bottom {no_of_all_teams//5}" + "\n" + str(f" {nextmatch_teams} '\n' {team_name}-{rank} vs {opponent}-{opponent_rank} --- {match_date}") + "\n"
-                                    with open("league_result.txt", "a") as file:
+                                    print(f"team-point-{points} opponent_point-{opponent_point}")
+                                    top_team_result = f"top {no_of_all_teams//5} teams with last loss playing opponenents in the bottom {no_of_all_teams//5}" + "\n" + str(f" {nextmatch_teams} '\n' {team_name}-{rank} vs {opponent}-{opponent_rank} --- {match_date} '\n' {league_country}, total_league_teams:{no_of_all_teams}") + "\n" + "\n" + "\n" + "\n"
+                                    with open("topteamwithloss_vs_bottomteam.txt", "a") as file:
                                         file.write(top_team_result)
 
+                                     
+                            
 
 
 
 
 
-                            # get team within the half position playing opponent below them with just 5 league position
+                            # get team within the half position playing opponent below them with just 5 league position and there point difference must be greater than 3
                             
                             if last_matches[:1] == ['L'] and rank <= no_of_all_teams/2:
                                 #print(match_data0
@@ -335,12 +341,13 @@ def get_teams(**kwargs):
                                 
                                 #search for opponent rank
                                 opponent_rank = 0
-                                for all_rank_and_name in all_ranks_and_names:
+                                opponent_point = 0
+                                for all_rank_and_name in all_ranks_points_and_names:
                                     #print(all_rank_and_name)
                                     if all_rank_and_name['just_team_name'] == opponent:
                                         opponent_rank += all_rank_and_name['just_rank']
-                                        break  
-                                
+                                        opponent_point += int(all_rank_and_name['just_point'])
+                                        break
                                 '''
                                 print('top teams with last loss playing an opponents')
                                 print(f"nextmatch: {nextmatch_opponent} --- {match_date}")
@@ -350,14 +357,69 @@ def get_teams(**kwargs):
                                 '''
 
                                 #print(opponent_rank)
-                                if opponent_rank > (rank) and opponent_rank < (rank + 6):  #print opponent in the botom 4 for 20 league team and botom 3 for 18 and 16 league teams
+                                #check if opponent position is lower, not more than 5, opponent is away and match point difference is greater than 3
+                                point_differnce = int(points) - int(opponent_point)
+                                if opponent_rank > (rank) and opponent_rank < (rank + 6) and opponent == teams[1].strip() and point_differnce > 3:  #print opponent in the botom 4 for 20 league team and botom 3 for 18 and 16 league teams
                                     print(f"top-half team with last loss playing opponenents in the maximum of {no_of_all_teams//5} lower league position")
                                     print(nextmatch_teams)
                                     print(f" {team_name}-{rank} vs {opponent}-{opponent_rank} --- {match_date}")
-                                    top_team_result = f"top-half team with last loss playing opponenents in the maximum of {no_of_all_teams//5} lower position" + "\n" + str(f"{nextmatch_teams} '\n' {team_name}-{rank} vs {opponent}-{opponent_rank} --- {match_date}") + "\n"
-                                    with open("league_result.txt", "a") as file:
+                                    print(f"team-point {points} opponent_point {opponent_point}")
+                                    top_team_result = f"top-half team with last loss playing opponenents in the maximum of {no_of_all_teams//5} lower position" + "\n" "\n" + str(f"{nextmatch_teams} '\n' {team_name}-{rank} vs {opponent}-{opponent_rank} --- {match_date}  '\n' team-point-{points} opponent_point-{opponent_point} '\n' '\n' {league_country}, total_league_teams:{no_of_all_teams}") + "\n" + "\n" + "\n" + "\n"
+                                    with open("half_pos_team.txt", "a") as file:
                                         file.write(top_team_result)
+                               
 
+
+
+
+                            
+
+                            #check top 3 or 4 teams   playing last bottom 3 or 4. Also check the points difference between the upper and lower pos of the top teams teams and it should be less than 4
+                            
+                            if rank <= (no_of_all_teams//5):  # team in top 3 or 4
+                                #print(match_data0
+                                nextmatch_teams = next_match[0]
+                                nextmatch_opponent = nextmatch_teams[:-10]   #remove date attached to the teams
+                                match_date = nextmatch_teams[-10:]
+                                teams = nextmatch_opponent.split('-')
+                                #print(teams)
+                                if team_name == teams[1].strip():
+                                    opponent = teams[0].strip()
+                                else:
+                                    opponent = teams[1].strip()
+                                     
+                                #print(all_rank_and_name)
+                                #print(no_of_all_teams)
+                                #print(f"opponent_point", all_rank_and_name['just_point'])
+                                #search for opponent rank and points
+                                opponent_rank = 0
+                                opponent_point = 0
+                                for all_rank_and_name in all_ranks_points_and_names:
+                                    #print(all_rank_and_name)
+                                    if all_rank_and_name['just_team_name'] == opponent:
+                                        opponent_rank += all_rank_and_name['just_rank']
+                                        opponent_point += int(all_rank_and_name['just_point'])
+                                        #print(opponent_point)
+                                        break  
+
+                                '''
+                                print('top teams with last loss playing an opponents')
+                                print(f"nextmatch: {nextmatch_opponent} --- {match_date}")
+                                print(f"team with the last loss: {team_name}, rank: {rank}")
+                                print(f"opponents: {opponent},  rank: {opponent_rank}")
+                                print()
+                                '''
+                                
+                                #print(opponent_rank)
+                                if opponent_rank >= (no_of_all_teams -(no_of_all_teams//5)) and opponent == teams[1].strip():  #print opponent in the botom 4 for 20 league team and botom 3 for 18 and 16 league teams
+                                    print(f"top {no_of_all_teams//5} team  playing opponenents in the bottom {no_of_all_teams//5}")
+                                    print(nextmatch_teams)
+                                    print(f" {team_name}-{rank} vs {opponent}-{opponent_rank} --- {match_date}")
+                                    print(f"team-point-{points} opponent_point-{opponent_point}")
+                                    top_team_result = f"top {no_of_all_teams//5} teams playing opponenents in the bottom {no_of_all_teams//5}" + "\n" + str(f" {nextmatch_teams} '\n' {team_name}-{rank} vs {opponent}-{opponent_rank} --- {match_date} '\n' {league_country}, total_league_teams:{no_of_all_teams}") + "\n" + "\n" + "\n" + "\n"
+                                    with open("topteam_vs_bottomteam.txt", "a") as file:
+                                        file.write(top_team_result)
+                            
                            
 
                         league_details = league_country, 'total_league_teams:', total_league_teams
@@ -421,4 +483,4 @@ if __name__ == "__main__":
     
 
 
-#serbia=2, scotland=2, uruguay=1, mexico=2, japan=2, ireland=2, denmark=2, bahrain=2, finland=2, qatar=2, slovenia=2, croatia=2, france=3, germany=3, iran=2, italy=4, portugal=3, spain=4, turkey=3, england=4, australia=2, albania=2, brazil=3, netherlands=2 
+#python3 test10.py serbia=2 scotland=2 uruguay=1 australia=2 albania=2 mexico=2 japan=2 ireland=2 denmark=2 bahrain=2 finland=2 qatar=2 slovenia=2 netherlands=2 croatia=2 iran=2 portugal=3 spain=4 turkey=3 england=4 germany=3 france=3 italy=4 brazil=3
