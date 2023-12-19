@@ -1,0 +1,90 @@
+top-half team with last loss playing opponenents within 5 lower position and point differencce of 3
+
+Brisbane Roar - Central Coast Mariners21.12.2023 '
+' Brisbane Roar-5 vs Central Coast Mariners-9 --- 21.12.2023  '
+' team-point-14 opponent_point-8 '
+' '
+' A-League 2023/2024 - Football, Australia, total_league_teams:12
+
+
+
+top-half team with last loss playing opponenents within 5 lower position and point differencce of 3
+
+Atl. Madrid - Getafe19.12.2023 '
+' Atl. Madrid-4 vs Getafe-8 --- 19.12.2023  '
+' team-point-34 opponent_point-25 '
+' '
+' LaLiga 2023/2024 - Football, Spain, total_league_teams:20
+
+
+
+top-half team with last loss playing opponenents within 5 lower position and point differencce of 3
+
+Blackpool - Bristol Rovers23.12.2023 '
+' Blackpool-8 vs Bristol Rovers-11 --- 23.12.2023  '
+' team-point-33 opponent_point-28 '
+' '
+' League One 2023/2024 - Football, England, total_league_teams:24
+
+
+
+top-half team with last loss playing opponenents within 5 lower position and point differencce of 3
+
+Eintracht Frankfurt - B. Monchengladbach20.12.2023 '
+' Eintracht Frankfurt-8 vs B. Monchengladbach-11 --- 20.12.2023  '
+' team-point-21 opponent_point-17 '
+' '
+' Bundesliga 2023/2024 - Football, Germany, total_league_teams:18
+
+
+
+top-half team with last loss playing opponenents within 5 lower position and point differencce of 3
+
+Nice - Lens20.12.2023 '
+' Nice-2 vs Lens-7 --- 20.12.2023  '
+' team-point-32 opponent_point-26 '
+' '
+' Ligue 1 2023/2024 - Football, France, total_league_teams:18
+
+
+
+top-half team with last loss playing opponenents within 5 lower position and point differencce of 3
+
+Reims - Le Havre20.12.2023 '
+' Reims-8 vs Le Havre-10 --- 20.12.2023  '
+' team-point-23 opponent_point-19 '
+' '
+' Ligue 1 2023/2024 - Football, France, total_league_teams:18
+
+
+
+top-half team with last loss playing opponenents within 5 lower position and point differencce of 3
+
+Martigues - Dijon12.01.2024 '
+' Martigues-5 vs Dijon-7 --- 12.01.2024  '
+' team-point-26 opponent_point-22 '
+' '
+' National 2023/2024 - Football, France, total_league_teams:18
+
+
+
+top-half team with last loss playing opponenents within 5 lower position and point differencce of 3
+
+Catanzaro - Brescia23.12.2023 '
+' Catanzaro-4 vs Brescia-9 --- 23.12.2023  '
+' team-point-30 opponent_point-22 '
+' '
+' Serie B 2023/2024 - Football, Italy, total_league_teams:20
+
+
+
+top-half team with last loss playing opponenents within 5 lower position and point differencce of 3
+
+Pro Vercelli - Virtus Verona22.12.2023 '
+' Pro Vercelli-4 vs Virtus Verona-7 --- 22.12.2023  '
+' team-point-31 opponent_point-27 '
+' '
+' Serie C - Group A 2023/2024 - Football, Italy, total_league_teams:20
+
+
+

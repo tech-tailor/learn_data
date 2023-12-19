@@ -360,11 +360,11 @@ def get_teams(**kwargs):
                                 #check if opponent position is lower, not more than 5, opponent is away and match point difference is greater than 3
                                 point_differnce = int(points) - int(opponent_point)
                                 if opponent_rank > (rank) and opponent_rank < (rank + 6) and opponent == teams[1].strip() and point_differnce > 3:  #print opponent in the botom 4 for 20 league team and botom 3 for 18 and 16 league teams
-                                    print(f"top-half team with last loss playing opponenents in the maximum of {no_of_all_teams//5} lower league position")
+                                    print(f"top-half team with last loss playing opponenents within 5 lower position and point differencce of 3")
                                     print(nextmatch_teams)
                                     print(f" {team_name}-{rank} vs {opponent}-{opponent_rank} --- {match_date}")
                                     print(f"team-point {points} opponent_point {opponent_point}")
-                                    top_team_result = f"top-half team with last loss playing opponenents in the maximum of {no_of_all_teams//5} lower position" + "\n" "\n" + str(f"{nextmatch_teams} '\n' {team_name}-{rank} vs {opponent}-{opponent_rank} --- {match_date}  '\n' team-point-{points} opponent_point-{opponent_point} '\n' '\n' {league_country}, total_league_teams:{no_of_all_teams}") + "\n" + "\n" + "\n" + "\n"
+                                    top_team_result = f"top-half team with last loss playing opponenents within 5 lower position and point differencce of 3" + "\n" "\n" + str(f"{nextmatch_teams} '\n' {team_name}-{rank} vs {opponent}-{opponent_rank} --- {match_date}  '\n' team-point-{points} opponent_point-{opponent_point} '\n' '\n' {league_country}, total_league_teams:{no_of_all_teams}") + "\n" + "\n" + "\n" + "\n"
                                     with open("half_pos_team.txt", "a") as file:
                                         file.write(top_team_result)
                                
@@ -376,7 +376,7 @@ def get_teams(**kwargs):
 
                             #check top 3 or 4 teams   playing last bottom 3 or 4. Also check the points difference between the upper and lower pos of the top teams teams and it should be less than 4
                             
-                            if rank <= (no_of_all_teams//5):  # team in top 3 or 4
+                            if rank <= (no_of_all_teams//1.6):  # team in top 12, 13 or 14
                                 #print(match_data0
                                 nextmatch_teams = next_match[0]
                                 nextmatch_opponent = nextmatch_teams[:-10]   #remove date attached to the teams
@@ -411,25 +411,24 @@ def get_teams(**kwargs):
                                 '''
                                 
                                 #print(opponent_rank)
-                                if opponent_rank >= (no_of_all_teams -(no_of_all_teams//5)) and opponent == teams[1].strip():  #print opponent in the botom 4 for 20 league team and botom 3 for 18 and 16 league teams
-                                    print(f"top {no_of_all_teams//5} team  playing opponenents in the bottom {no_of_all_teams//5}")
+                                if opponent_rank > (rank + 3) and opponent == teams[1].strip():  #print opponent in the botom 4 for 20 league team and botom 3 for 18 and 16 league teams
+                                    print(f"top {no_of_all_teams//1.6} team  playing opponenents lower from 3 position of them")
                                     print(nextmatch_teams)
                                     print(f" {team_name}-{rank} vs {opponent}-{opponent_rank} --- {match_date}")
                                     print(f"team-point-{points} opponent_point-{opponent_point}")
-                                    top_team_result = f"top {no_of_all_teams//5} teams playing opponenents in the bottom {no_of_all_teams//5}" + "\n" + str(f" {nextmatch_teams} '\n' {team_name}-{rank} vs {opponent}-{opponent_rank} --- {match_date} '\n' {league_country}, total_league_teams:{no_of_all_teams}") + "\n" + "\n" + "\n" + "\n"
-                                    with open("topteam_vs_bottomteam.txt", "a") as file:
+                                    top_team_result = f"top {no_of_all_teams//1.6} team  playing opponenents lower from 3 position of them" + "\n" + str(f" {nextmatch_teams} '\n' {team_name}-{rank} vs {opponent}-{opponent_rank} --- {match_date} '\n' team-point-{points} opponent_point-{opponent_point} '\n' '\n' {league_country}, total_league_teams:{no_of_all_teams}") + "\n" + "\n" + "\n" + "\n"
+                                    with open("top13team_withnolasthistory_.txt", "a") as file:
                                         file.write(top_team_result)
                             
                            
-
+                        
                         league_details = league_country, 'total_league_teams:', total_league_teams
                         print(league_details)
                         print('')
                         print('')
-                       # if top_team_result or result_for_double_loss:
                         with open("league_result.txt", "a") as file:
                             file.write(str(league_details) + '\n' + '\n')
-
+                        
                     except Exception as e:
                         print('error1: ', e)
                         driver.quit()
@@ -483,4 +482,4 @@ if __name__ == "__main__":
     
 
 
-#python3 test10.py serbia=2 scotland=2 uruguay=1 australia=2 albania=2 mexico=2 japan=2 ireland=2 denmark=2 bahrain=2 finland=2 qatar=2 slovenia=2 netherlands=2 croatia=2 iran=2 portugal=3 spain=4 turkey=3 england=4 germany=3 france=3 italy=4 brazil=3
+#python3 test10.py serbia=1 scotland=1 uruguay=1 australia=1 albania=1 japan=1 ireland=1 denmark=1 bahrain=1 finland=1 qatar=1 slovenia=1 netherlands=1 turkey=1 croatia=2 iran=1 portugal=2 spain=4 england=4 germany=3 france=3 italy=4 brazil=3 mexico=2 

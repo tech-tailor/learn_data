@@ -1,0 +1,21 @@
+top 2 teams with last loss playing opponenents in the bottom 2
+ Celtic - Livingston23.12.2023 '
+' Celtic-1 vs Livingston-12 --- 23.12.2023 '
+' Premiership 2023/2024 - Football, Scotland, total_league_teams:12
+
+
+
+top 3 teams with last loss playing opponenents in the bottom 3
+ FC Porto - Chaves29.12.2023 '
+' FC Porto-3 vs Chaves-18 --- 29.12.2023 '
+' Liga Portugal 2023/2024 - Football, Portugal, total_league_teams:18
+
+
+
+top 4 teams with last loss playing opponenents in the bottom 4
+ Venezia - Lecco23.12.2023 '
+' Venezia-2 vs Lecco-19 --- 23.12.2023 '
+' Serie B 2023/2024 - Football, Italy, total_league_teams:20
+
+
+

@@ -1,0 +1,810 @@
+top 9.0 team  playing opponenents lower from 3 position of them
+ TSC - Napredak22.12.2023 '
+' TSC-3 vs Napredak-13 --- 22.12.2023 '
+' team-point-36 opponent_point-20 '
+' '
+' Super Liga 2023/2024 - Football, Serbia, total_league_teams:16
+
+
+
+top 9.0 team  playing opponenents lower from 3 position of them
+ Novi Pazar - Sp. Subotica21.12.2023 '
+' Novi Pazar-4 vs Sp. Subotica-9 --- 21.12.2023 '
+' team-point-29 opponent_point-22 '
+' '
+' Super Liga 2023/2024 - Football, Serbia, total_league_teams:16
+
+
+
+top 7.0 team  playing opponenents lower from 3 position of them
+ Celtic - Livingston23.12.2023 '
+' Celtic-1 vs Livingston-12 --- 23.12.2023 '
+' team-point-42 opponent_point-11 '
+' '
+' Premiership 2023/2024 - Football, Scotland, total_league_teams:12
+
+
+
+top 7.0 team  playing opponenents lower from 3 position of them
+ Rangers - St Johnstone20.12.2023 '
+' Rangers-2 vs St Johnstone-8 --- 20.12.2023 '
+' team-point-37 opponent_point-18 '
+' '
+' Premiership 2023/2024 - Football, Scotland, total_league_teams:12
+
+
+
+top 7.0 team  playing opponenents lower from 3 position of them
+ Brisbane Roar - Central Coast Mariners21.12.2023 '
+' Brisbane Roar-5 vs Central Coast Mariners-9 --- 21.12.2023 '
+' team-point-14 opponent_point-8 '
+' '
+' A-League 2023/2024 - Football, Australia, total_league_teams:12
+
+
+
+top 6.0 team  playing opponenents lower from 3 position of them
+ Partizani - Erzeni24.12.2023 '
+' Partizani-2 vs Erzeni-9 --- 24.12.2023 '
+' team-point-32 opponent_point-18 '
+' '
+' Superliga 2023/2024 - Football, Albania, total_league_teams:10
+
+
+
+top 6.0 team  playing opponenents lower from 3 position of them
+ Galway - St. Patricks16.02.2024 '
+' Galway-1 vs St. Patricks-6 --- 16.02.2024 '
+' team-point-0 opponent_point-0 '
+' '
+' Premier Division 2024 - Football, Ireland, total_league_teams:10
+
+
+
+top 6.0 team  playing opponenents lower from 3 position of them
+ Waterford - Shelbourne16.02.2024 '
+' Waterford-2 vs Shelbourne-10 --- 16.02.2024 '
+' team-point-0 opponent_point-0 '
+' '
+' Premier Division 2024 - Football, Ireland, total_league_teams:10
+
+
+
+top 6.0 team  playing opponenents lower from 3 position of them
+ Shamrock Rovers - Dundalk16.02.2024 '
+' Shamrock Rovers-3 vs Dundalk-9 --- 16.02.2024 '
+' team-point-0 opponent_point-0 '
+' '
+' Premier Division 2024 - Football, Ireland, total_league_teams:10
+
+
+
+top 7.0 team  playing opponenents lower from 3 position of them
+ East Riffa - Sitra23.12.2023 '
+' East Riffa-3 vs Sitra-7 --- 23.12.2023 '
+' team-point-14 opponent_point-12 '
+' '
+' Premier League 2023/2024 - Football, Bahrain, total_league_teams:12
+
+
+
+top 7.0 team  playing opponenents lower from 3 position of them
+ Al Rayyan - Al Markhiya20.12.2023 '
+' Al Rayyan-4 vs Al Markhiya-12 --- 20.12.2023 '
+' team-point-19 opponent_point-4 '
+' '
+' QSL 2023/2024 - Football, Qatar, total_league_teams:12
+
+
+
+top 11.0 team  playing opponenents lower from 3 position of them
+ PSV - Excelsior13.01.2024 '
+' PSV-1 vs Excelsior-12 --- 13.01.2024 '
+' team-point-48 opponent_point-17 '
+' '
+' Eredivisie 2023/2024 - Football, Netherlands, total_league_teams:18
+
+
+
+top 11.0 team  playing opponenents lower from 3 position of them
+ Feyenoord - Nijmegen14.01.2024 '
+' Feyenoord-2 vs Nijmegen-8 --- 14.01.2024 '
+' team-point-38 opponent_point-21 '
+' '
+' Eredivisie 2023/2024 - Football, Netherlands, total_league_teams:18
+
+
+
+top 12.0 team  playing opponenents lower from 3 position of them
+ Galatasaray - Karagumruk20.12.2023 '
+' Galatasaray-2 vs Karagumruk-13 --- 20.12.2023 '
+' team-point-40 opponent_point-17 '
+' '
+' Super Lig 2023/2024 - Football, Turkey, total_league_teams:20
+
+
+
+top 12.0 team  playing opponenents lower from 3 position of them
+ Besiktas - Alanyaspor21.12.2023 '
+' Besiktas-5 vs Alanyaspor-18 --- 21.12.2023 '
+' team-point-26 opponent_point-14 '
+' '
+' Super Lig 2023/2024 - Football, Turkey, total_league_teams:20
+
+
+
+top 12.0 team  playing opponenents lower from 3 position of them
+ Rizespor - Pendikspor21.12.2023 '
+' Rizespor-8 vs Pendikspor-19 --- 21.12.2023 '
+' team-point-22 opponent_point-13 '
+' '
+' Super Lig 2023/2024 - Football, Turkey, total_league_teams:20
+
+
+
+top 7.0 team  playing opponenents lower from 3 position of them
+ Zrinski Jurjevac - Cibalia17.02.2024 '
+' Zrinski Jurjevac-1 vs Cibalia-9 --- 17.02.2024 '
+' team-point-41 opponent_point-19 '
+' '
+' Prva NL 2023/2024 - Football, Croatia, total_league_teams:12
+
+
+
+top 7.0 team  playing opponenents lower from 3 position of them
+ Vukovar 1991 - Croatia Zmijavci17.02.2024 '
+' Vukovar 1991-3 vs Croatia Zmijavci-8 --- 17.02.2024 '
+' team-point-34 opponent_point-19 '
+' '
+' Prva NL 2023/2024 - Football, Croatia, total_league_teams:12
+
+
+
+top 9.0 team  playing opponenents lower from 3 position of them
+ Esteghlal F.C. - Nassaji Mazandaran19.12.2023 '
+' Esteghlal F.C.-1 vs Nassaji Mazandaran-15 --- 19.12.2023 '
+' team-point-25 opponent_point-9 '
+' '
+' Persian Gulf Pro League 2023/2024 - Football, Iran, total_league_teams:16
+
+
+
+top 9.0 team  playing opponenents lower from 3 position of them
+ Zob Ahan - Foolad19.12.2023 '
+' Zob Ahan-6 vs Foolad-14 --- 19.12.2023 '
+' team-point-20 opponent_point-10 '
+' '
+' Persian Gulf Pro League 2023/2024 - Football, Iran, total_league_teams:16
+
+
+
+top 9.0 team  playing opponenents lower from 3 position of them
+ Shams Azar Qazvin - Sanat Naft19.12.2023 '
+' Shams Azar Qazvin-9 vs Sanat Naft-13 --- 19.12.2023 '
+' team-point-16 opponent_point-10 '
+' '
+' Persian Gulf Pro League 2023/2024 - Football, Iran, total_league_teams:16
+
+
+
+top 11.0 team  playing opponenents lower from 3 position of them
+ Benfica - Famalicao29.12.2023 '
+' Benfica-2 vs Famalicao-7 --- 29.12.2023 '
+' team-point-33 opponent_point-18 '
+' '
+' Liga Portugal 2023/2024 - Football, Portugal, total_league_teams:18
+
+
+
+top 11.0 team  playing opponenents lower from 3 position of them
+ FC Porto - Chaves29.12.2023 '
+' FC Porto-3 vs Chaves-18 --- 29.12.2023 '
+' team-point-31 opponent_point-10 '
+' '
+' Liga Portugal 2023/2024 - Football, Portugal, total_league_teams:18
+
+
+
+top 11.0 team  playing opponenents lower from 3 position of them
+ Vitoria Guimaraes - Rio Ave23.12.2023 '
+' Vitoria Guimaraes-5 vs Rio Ave-15 --- 23.12.2023 '
+' team-point-26 opponent_point-12 '
+' '
+' Liga Portugal 2023/2024 - Football, Portugal, total_league_teams:18
+
+
+
+top 11.0 team  playing opponenents lower from 3 position of them
+ Estrela - Arouca28.12.2023 '
+' Estrela-9 vs Arouca-14 --- 28.12.2023 '
+' team-point-16 opponent_point-13 '
+' '
+' Liga Portugal 2023/2024 - Football, Portugal, total_league_teams:18
+
+
+
+top 11.0 team  playing opponenents lower from 3 position of them
+ Maritimo - Penafiel23.12.2023 '
+' Maritimo-4 vs Penafiel-15 --- 23.12.2023 '
+' team-point-25 opponent_point-14 '
+' '
+' Liga Portugal 2 2023/2024 - Football, Portugal, total_league_teams:18
+
+
+
+top 11.0 team  playing opponenents lower from 3 position of them
+ Torreense - Vilaverdense21.12.2023 '
+' Torreense-6 vs Vilaverdense-18 --- 21.12.2023 '
+' team-point-21 opponent_point-10 '
+' '
+' Liga Portugal 2 2023/2024 - Football, Portugal, total_league_teams:18
+
+
+
+top 11.0 team  playing opponenents lower from 3 position of them
+ Tondela - Oliveirense30.12.2023 '
+' Tondela-8 vs Oliveirense-12 --- 30.12.2023 '
+' team-point-20 opponent_point-16 '
+' '
+' Liga Portugal 2 2023/2024 - Football, Portugal, total_league_teams:18
+
+
+
+top 12.0 team  playing opponenents lower from 3 position of them
+ Barcelona - Almeria20.12.2023 '
+' Barcelona-3 vs Almeria-20 --- 20.12.2023 '
+' team-point-35 opponent_point-5 '
+' '
+' LaLiga 2023/2024 - Football, Spain, total_league_teams:20
+
+
+
+top 12.0 team  playing opponenents lower from 3 position of them
+ Atl. Madrid - Getafe19.12.2023 '
+' Atl. Madrid-4 vs Getafe-8 --- 19.12.2023 '
+' team-point-34 opponent_point-25 '
+' '
+' LaLiga 2023/2024 - Football, Spain, total_league_teams:20
+
+
+
+top 12.0 team  playing opponenents lower from 3 position of them
+ Ath Bilbao - Las Palmas20.12.2023 '
+' Ath Bilbao-5 vs Las Palmas-9 --- 20.12.2023 '
+' team-point-32 opponent_point-25 '
+' '
+' LaLiga 2023/2024 - Football, Spain, total_league_teams:20
+
+
+
+top 13.0 team  playing opponenents lower from 3 position of them
+ Leganes - Tenerife20.12.2023 '
+' Leganes-1 vs Tenerife-9 --- 20.12.2023 '
+' team-point-38 opponent_point-30 '
+' '
+' LaLiga2 2023/2024 - Football, Spain, total_league_teams:22
+
+
+
+top 13.0 team  playing opponenents lower from 3 position of them
+ Espanyol - Burgos CF19.12.2023 '
+' Espanyol-5 vs Burgos CF-11 --- 19.12.2023 '
+' team-point-33 opponent_point-29 '
+' '
+' LaLiga2 2023/2024 - Football, Spain, total_league_teams:22
+
+
+
+top 13.0 team  playing opponenents lower from 3 position of them
+ Racing Santander - Andorra19.12.2023 '
+' Racing Santander-8 vs Andorra-17 --- 19.12.2023 '
+' team-point-30 opponent_point-23 '
+' '
+' LaLiga2 2023/2024 - Football, Spain, total_league_teams:22
+
+
+
+top 12.0 team  playing opponenents lower from 3 position of them
+ Ponferradina - Arenteiro03.01.2024 '
+' Ponferradina-3 vs Arenteiro-10 --- 03.01.2024 '
+' team-point-33 opponent_point-23 '
+' '
+' Primera RFEF - Group 1 2023/2024 - Football, Spain, total_league_teams:20
+
+
+
+top 12.0 team  playing opponenents lower from 3 position of them
+ Gimnastic - Cornella03.01.2024 '
+' Gimnastic-5 vs Cornella-12 --- 03.01.2024 '
+' team-point-29 opponent_point-21 '
+' '
+' Primera RFEF - Group 1 2023/2024 - Football, Spain, total_league_teams:20
+
+
+
+top 12.0 team  playing opponenents lower from 3 position of them
+ Barcelona B - Unionistas03.01.2024 '
+' Barcelona B-6 vs Unionistas-15 --- 03.01.2024 '
+' team-point-28 opponent_point-19 '
+' '
+' Primera RFEF - Group 1 2023/2024 - Football, Spain, total_league_teams:20
+
+
+
+top 12.0 team  playing opponenents lower from 3 position of them
+ UD Ibiza - San Fernando03.01.2024 '
+' UD Ibiza-2 vs San Fernando-13 --- 03.01.2024 '
+' team-point-40 opponent_point-20 '
+' '
+' Primera RFEF - Group 2 2023/2024 - Football, Spain, total_league_teams:20
+
+
+
+top 12.0 team  playing opponenents lower from 3 position of them
+ Cordoba - Real Madrid B04.01.2024 '
+' Cordoba-4 vs Real Madrid B-10 --- 04.01.2024 '
+' team-point-33 opponent_point-23 '
+' '
+' Primera RFEF - Group 2 2023/2024 - Football, Spain, total_league_teams:20
+
+
+
+top 12.0 team  playing opponenents lower from 3 position of them
+ Aston Villa - Sheffield Utd22.12.2023 '
+' Aston Villa-3 vs Sheffield Utd-20 --- 22.12.2023 '
+' team-point-38 opponent_point-8 '
+' '
+' Premier League 2023/2024 - Football, England, total_league_teams:20
+
+
+
+top 12.0 team  playing opponenents lower from 3 position of them
+ Tottenham - Everton23.12.2023 '
+' Tottenham-5 vs Everton-16 --- 23.12.2023 '
+' team-point-33 opponent_point-16 '
+' '
+' Premier League 2023/2024 - Football, England, total_league_teams:20
+
+
+
+top 12.0 team  playing opponenents lower from 3 position of them
+ Fulham - Burnley23.12.2023 '
+' Fulham-11 vs Burnley-19 --- 23.12.2023 '
+' team-point-21 opponent_point-8 '
+' '
+' Premier League 2023/2024 - Football, England, total_league_teams:20
+
+
+
+top 14.0 team  playing opponenents lower from 3 position of them
+ Leicester - Rotherham23.12.2023 '
+' Leicester-1 vs Rotherham-24 --- 23.12.2023 '
+' team-point-55 opponent_point-13 '
+' '
+' Championship 2023/2024 - Football, England, total_league_teams:24
+
+
+
+top 14.0 team  playing opponenents lower from 3 position of them
+ Sunderland - Coventry23.12.2023 '
+' Sunderland-7 vs Coventry-15 --- 23.12.2023 '
+' team-point-33 opponent_point-27 '
+' '
+' Championship 2023/2024 - Football, England, total_league_teams:24
+
+
+
+top 14.0 team  playing opponenents lower from 3 position of them
+ Norwich - Huddersfield23.12.2023 '
+' Norwich-10 vs Huddersfield-21 --- 23.12.2023 '
+' team-point-31 opponent_point-22 '
+' '
+' Championship 2023/2024 - Football, England, total_league_teams:24
+
+
+
+top 14.0 team  playing opponenents lower from 3 position of them
+ Portsmouth - Fleetwood23.12.2023 '
+' Portsmouth-1 vs Fleetwood-22 --- 23.12.2023 '
+' team-point-48 opponent_point-16 '
+' '
+' League One 2023/2024 - Football, England, total_league_teams:24
+
+
+
+top 14.0 team  playing opponenents lower from 3 position of them
+ Bolton - Leyton Orient23.12.2023 '
+' Bolton-5 vs Leyton Orient-14 --- 23.12.2023 '
+' team-point-39 opponent_point-25 '
+' '
+' League One 2023/2024 - Football, England, total_league_teams:24
+
+
+
+top 14.0 team  playing opponenents lower from 3 position of them
+ Charlton - Burton23.12.2023 '
+' Charlton-10 vs Burton-19 --- 23.12.2023 '
+' team-point-28 opponent_point-20 '
+' '
+' League One 2023/2024 - Football, England, total_league_teams:24
+
+
+
+top 14.0 team  playing opponenents lower from 3 position of them
+ Stockport County - Notts Co22.12.2023 '
+' Stockport County-1 vs Notts Co-6 --- 22.12.2023 '
+' team-point-46 opponent_point-36 '
+' '
+' League Two 2023/2024 - Football, England, total_league_teams:24
+
+
+
+top 14.0 team  playing opponenents lower from 3 position of them
+ Wrexham - Newport23.12.2023 '
+' Wrexham-3 vs Newport-17 --- 23.12.2023 '
+' team-point-40 opponent_point-26 '
+' '
+' League Two 2023/2024 - Football, England, total_league_teams:24
+
+
+
+top 14.0 team  playing opponenents lower from 3 position of them
+ Accrington - Walsall23.12.2023 '
+' Accrington-9 vs Walsall-15 --- 23.12.2023 '
+' team-point-31 opponent_point-27 '
+' '
+' League Two 2023/2024 - Football, England, total_league_teams:24
+
+
+
+top 11.0 team  playing opponenents lower from 3 position of them
+ Bayer Leverkusen - Bochum20.12.2023 '
+' Bayer Leverkusen-1 vs Bochum-13 --- 20.12.2023 '
+' team-point-39 opponent_point-16 '
+' '
+' Bundesliga 2023/2024 - Football, Germany, total_league_teams:18
+
+
+
+top 11.0 team  playing opponenents lower from 3 position of them
+ Stuttgart - Augsburg20.12.2023 '
+' Stuttgart-4 vs Augsburg-10 --- 20.12.2023 '
+' team-point-31 opponent_point-18 '
+' '
+' Bundesliga 2023/2024 - Football, Germany, total_league_teams:18
+
+
+
+top 11.0 team  playing opponenents lower from 3 position of them
+ Dortmund - Mainz19.12.2023 '
+' Dortmund-5 vs Mainz-17 --- 19.12.2023 '
+' team-point-26 opponent_point-9 '
+' '
+' Bundesliga 2023/2024 - Football, Germany, total_league_teams:18
+
+
+
+top 11.0 team  playing opponenents lower from 3 position of them
+ Hoffenheim - Darmstadt19.12.2023 '
+' Hoffenheim-7 vs Darmstadt-18 --- 19.12.2023 '
+' team-point-23 opponent_point-9 '
+' '
+' Bundesliga 2023/2024 - Football, Germany, total_league_teams:18
+
+
+
+top 11.0 team  playing opponenents lower from 3 position of them
+ Holstein Kiel - Braunschweig19.01.2024 '
+' Holstein Kiel-1 vs Braunschweig-17 --- 19.01.2024 '
+' team-point-35 opponent_point-14 '
+' '
+' 2. Bundesliga 2023/2024 - Football, Germany, total_league_teams:18
+
+
+
+top 11.0 team  playing opponenents lower from 3 position of them
+ St. Pauli - Kaiserslautern20.01.2024 '
+' St. Pauli-2 vs Kaiserslautern-15 --- 20.01.2024 '
+' team-point-33 opponent_point-18 '
+' '
+' 2. Bundesliga 2023/2024 - Football, Germany, total_league_teams:18
+
+
+
+top 11.0 team  playing opponenents lower from 3 position of them
+ Nurnberg - Hansa Rostock20.01.2024 '
+' Nurnberg-10 vs Hansa Rostock-16 --- 20.01.2024 '
+' team-point-24 opponent_point-17 '
+' '
+' 2. Bundesliga 2023/2024 - Football, Germany, total_league_teams:18
+
+
+
+top 12.0 team  playing opponenents lower from 3 position of them
+ Ingolstadt - Aue19.12.2023 '
+' Ingolstadt-4 vs Aue-11 --- 19.12.2023 '
+' team-point-31 opponent_point-27 '
+' '
+' 3. Liga 2023/2024 - Football, Germany, total_league_teams:20
+
+
+
+top 12.0 team  playing opponenents lower from 3 position of them
+ Verl - Viktoria Koln20.12.2023 '
+' Verl-5 vs Viktoria Koln-14 --- 20.12.2023 '
+' team-point-30 opponent_point-25 '
+' '
+' 3. Liga 2023/2024 - Football, Germany, total_league_teams:20
+
+
+
+top 12.0 team  playing opponenents lower from 3 position of them
+ Sandhausen - Lubeck19.12.2023 '
+' Sandhausen-6 vs Lubeck-18 --- 19.12.2023 '
+' team-point-30 opponent_point-14 '
+' '
+' 3. Liga 2023/2024 - Football, Germany, total_league_teams:20
+
+
+
+top 12.0 team  playing opponenents lower from 3 position of them
+ RW Essen - Hallescher19.12.2023 '
+' RW Essen-7 vs Hallescher-16 --- 19.12.2023 '
+' team-point-30 opponent_point-18 '
+' '
+' 3. Liga 2023/2024 - Football, Germany, total_league_teams:20
+
+
+
+top 11.0 team  playing opponenents lower from 3 position of them
+ PSG - Metz20.12.2023 '
+' PSG-1 vs Metz-14 --- 20.12.2023 '
+' team-point-37 opponent_point-16 '
+' '
+' Ligue 1 2023/2024 - Football, France, total_league_teams:18
+
+
+
+top 11.0 team  playing opponenents lower from 3 position of them
+ Nice - Lens20.12.2023 '
+' Nice-2 vs Lens-7 --- 20.12.2023 '
+' team-point-32 opponent_point-26 '
+' '
+' Ligue 1 2023/2024 - Football, France, total_league_teams:18
+
+
+
+top 11.0 team  playing opponenents lower from 3 position of them
+ Brest - Lorient20.12.2023 '
+' Brest-5 vs Lorient-17 --- 20.12.2023 '
+' team-point-28 opponent_point-12 '
+' '
+' Ligue 1 2023/2024 - Football, France, total_league_teams:18
+
+
+
+top 12.0 team  playing opponenents lower from 3 position of them
+ Angers - Guingamp19.12.2023 '
+' Angers-1 vs Guingamp-6 --- 19.12.2023 '
+' team-point-37 opponent_point-27 '
+' '
+' Ligue 2 2023/2024 - Football, France, total_league_teams:20
+
+
+
+top 12.0 team  playing opponenents lower from 3 position of them
+ Pau FC - Troyes19.12.2023 '
+' Pau FC-5 vs Troyes-15 --- 19.12.2023 '
+' team-point-30 opponent_point-19 '
+' '
+' Ligue 2 2023/2024 - Football, France, total_league_teams:20
+
+
+
+top 12.0 team  playing opponenents lower from 3 position of them
+ AC Ajaccio - Valenciennes19.12.2023 '
+' AC Ajaccio-7 vs Valenciennes-20 --- 19.12.2023 '
+' team-point-27 opponent_point-11 '
+' '
+' Ligue 2 2023/2024 - Football, France, total_league_teams:20
+
+
+
+top 12.0 team  playing opponenents lower from 3 position of them
+ Paris FC - Quevilly Rouen19.12.2023 '
+' Paris FC-8 vs Quevilly Rouen-18 --- 19.12.2023 '
+' team-point-26 opponent_point-16 '
+' '
+' Ligue 2 2023/2024 - Football, France, total_league_teams:20
+
+
+
+top 12.0 team  playing opponenents lower from 3 position of them
+ St Etienne - Bastia19.12.2023 '
+' St Etienne-10 vs Bastia-14 --- 19.12.2023 '
+' team-point-25 opponent_point-21 '
+' '
+' Ligue 2 2023/2024 - Football, France, total_league_teams:20
+
+
+
+top 11.0 team  playing opponenents lower from 3 position of them
+ Red Star - Orleans12.01.2024 '
+' Red Star-1 vs Orleans-10 --- 12.01.2024 '
+' team-point-36 opponent_point-21 '
+' '
+' National 2023/2024 - Football, France, total_league_teams:18
+
+
+
+top 11.0 team  playing opponenents lower from 3 position of them
+ Rouen - Marignane12.01.2024 '
+' Rouen-2 vs Marignane-14 --- 12.01.2024 '
+' team-point-28 opponent_point-16 '
+' '
+' National 2023/2024 - Football, France, total_league_teams:18
+
+
+
+top 11.0 team  playing opponenents lower from 3 position of them
+ Villefranche - Epinal12.01.2024 '
+' Villefranche-3 vs Epinal-17 --- 12.01.2024 '
+' team-point-27 opponent_point-13 '
+' '
+' National 2023/2024 - Football, France, total_league_teams:18
+
+
+
+top 11.0 team  playing opponenents lower from 3 position of them
+ Sochaux - Nimes12.01.2024 '
+' Sochaux-6 vs Nimes-15 --- 12.01.2024 '
+' team-point-25 opponent_point-16 '
+' '
+' National 2023/2024 - Football, France, total_league_teams:18
+
+
+
+top 12.0 team  playing opponenents lower from 3 position of them
+ Inter - Lecce23.12.2023 '
+' Inter-1 vs Lecce-12 --- 23.12.2023 '
+' team-point-41 opponent_point-20 '
+' '
+' Serie A 2023/2024 - Football, Italy, total_league_teams:20
+
+
+
+top 12.0 team  playing opponenents lower from 3 position of them
+ Torino - Udinese23.12.2023 '
+' Torino-9 vs Udinese-17 --- 23.12.2023 '
+' team-point-23 opponent_point-13 '
+' '
+' Serie A 2023/2024 - Football, Italy, total_league_teams:20
+
+
+
+top 12.0 team  playing opponenents lower from 3 position of them
+ Parma - Ternana23.12.2023 '
+' Parma-1 vs Ternana-15 --- 23.12.2023 '
+' team-point-35 opponent_point-17 '
+' '
+' Serie B 2023/2024 - Football, Italy, total_league_teams:20
+
+
+
+top 12.0 team  playing opponenents lower from 3 position of them
+ Venezia - Lecco23.12.2023 '
+' Venezia-2 vs Lecco-19 --- 23.12.2023 '
+' team-point-33 opponent_point-16 '
+' '
+' Serie B 2023/2024 - Football, Italy, total_league_teams:20
+
+
+
+top 12.0 team  playing opponenents lower from 3 position of them
+ Como - Palermo23.12.2023 '
+' Como-3 vs Palermo-7 --- 23.12.2023 '
+' team-point-31 opponent_point-28 '
+' '
+' Serie B 2023/2024 - Football, Italy, total_league_teams:20
+
+
+
+top 12.0 team  playing opponenents lower from 3 position of them
+ Catanzaro - Brescia23.12.2023 '
+' Catanzaro-4 vs Brescia-9 --- 23.12.2023 '
+' team-point-30 opponent_point-22 '
+' '
+' Serie B 2023/2024 - Football, Italy, total_league_teams:20
+
+
+
+top 12.0 team  playing opponenents lower from 3 position of them
+ Cittadella - Spezia23.12.2023 '
+' Cittadella-6 vs Spezia-17 --- 23.12.2023 '
+' team-point-29 opponent_point-16 '
+' '
+' Serie B 2023/2024 - Football, Italy, total_league_teams:20
+
+
+
+top 12.0 team  playing opponenents lower from 3 position of them
+ Sampdoria - FeralpiSalo23.12.2023 '
+' Sampdoria-10 vs FeralpiSalo-20 --- 23.12.2023 '
+' team-point-22 opponent_point-10 '
+' '
+' Serie B 2023/2024 - Football, Italy, total_league_teams:20
+
+
+
+top 12.0 team  playing opponenents lower from 3 position of them
+ Sudtirol - Reggiana23.12.2023 '
+' Sudtirol-12 vs Reggiana-16 --- 23.12.2023 '
+' team-point-20 opponent_point-17 '
+' '
+' Serie B 2023/2024 - Football, Italy, total_league_teams:20
+
+
+
+top 12.0 team  playing opponenents lower from 3 position of them
+ Atalanta U23 - Arzignano22.12.2023 '
+' Atalanta U23-5 vs Arzignano-12 --- 22.12.2023 '
+' team-point-29 opponent_point-24 '
+' '
+' Serie C - Group A 2023/2024 - Football, Italy, total_league_teams:20
+
+
+
+top 12.0 team  playing opponenents lower from 3 position of them
+ L.R. Vicenza - Alessandria22.12.2023 '
+' L.R. Vicenza-8 vs Alessandria-19 --- 22.12.2023 '
+' team-point-26 opponent_point-13 '
+' '
+' Serie C - Group A 2023/2024 - Football, Italy, total_league_teams:20
+
+
+
+top 12.0 team  playing opponenents lower from 3 position of them
+ Torres - Pineto22.12.2023 '
+' Torres-2 vs Pineto-7 --- 22.12.2023 '
+' team-point-41 opponent_point-27 '
+' '
+' Serie C - Group B 2023/2024 - Football, Italy, total_league_teams:20
+
+
+
+top 12.0 team  playing opponenents lower from 3 position of them
+ Pescara - Fermana23.12.2023 '
+' Pescara-4 vs Fermana-20 --- 23.12.2023 '
+' team-point-31 opponent_point-12 '
+' '
+' Serie C - Group B 2023/2024 - Football, Italy, total_league_teams:20
+
+
+
+top 12.0 team  playing opponenents lower from 3 position of them
+ Recanatese - Entella23.12.2023 '
+' Recanatese-8 vs Entella-13 --- 23.12.2023 '
+' team-point-23 opponent_point-21 '
+' '
+' Serie C - Group B 2023/2024 - Football, Italy, total_league_teams:20
+
+
+
+top 11.0 team  playing opponenents lower from 3 position of them
+ Monterrey - Puebla14.01.2024 '
+' Monterrey-2 vs Puebla-11 --- 14.01.2024 '
+' team-point-0 opponent_point-0 '
+' '
+' Liga MX 2023/2024 - Football, Mexico, total_league_teams:18
+
+
+
+top 11.0 team  playing opponenents lower from 3 position of them
+ Cruz Azul - Pachuca14.01.2024 '
+' Cruz Azul-3 vs Pachuca-8 --- 14.01.2024 '
+' team-point-0 opponent_point-0 '
+' '
+' Liga MX 2023/2024 - Football, Mexico, total_league_teams:18
+
+
+
